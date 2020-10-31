@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1578559582 source:c:\myprogs\cc64\compiler.cpp
+	<algorithm>
+	<math.h>
+	<cstring>
+	"expr.h"
+	<iostream>
+
+1578518324 c:\myprogs\cc64\expr.h
+	<math.h>
+	<string>
+	<vector>
+	<cstddef>
+	<functional>
+	<map>
+	<set>
+	"mathfc.h"
+
+1578163294 c:\myprogs\cc64\mathfc.h
+	<string>
+	<array>
+	<vector>
+
+1578518643 source:c:\myprogs\cc64\consolecalc.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	<fstream>
+	<algorithm>
+	<ctime>
+	<cmath>
+	<windows.h>
+	"mathfc.h"
+
+1577791622 source:c:\myprogs\cc64\expression.cpp
+	<algorithm>
+	<cstring>
+	<iostream>
+	<charconv>
+	<sstream>
+	"expr.h"
+
+1578518509 source:c:\myprogs\cc64\fcodegen64.cpp
+	<math.h>
+	<algorithm>
+	<limits.h>
+	"expr.h"
+
+1578163358 source:c:\myprogs\cc64\libinterface.cpp
+	<vector>
+	<algorithm>
+	<memory>
+	<cmath>
+	<cstring>
+	<windows.h>
+	"expr.h"
+
+1577285936 source:c:\myprogs\cc64\macro.cpp
+	<algorithm>
+	<cstring>
+	<iostream>
+	"expr.h"
+
+1577285936 source:c:\myprogs\cc64\optimizer.cpp
+	<algorithm>
+	<math.h>
+	<iostream>
+	<cstring>
+	"expr.h"
+

@@ -1,6 +1,7 @@
 /*
-        Файл compiler.cpp компилятоpа математических функций
-        Веpсия 4.0 для Win32 и Win64
+        Math function compiler version 4.0
+        File compiler.cpp : the ompiler's middleend
+        Platrorms supported : x86 / Win32 and Win64
         (c) Kavinov A.V. 1998-2002,2011,2019
 */
 #include <algorithm>
@@ -13,9 +14,6 @@
 #endif
 
 using namespace std;
-
-
-// Compiler's middleend
 
 static UserFunctionTableEntry ExtendedFunctionTable[] = {
     { "erf",    erf },
