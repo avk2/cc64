@@ -1,15 +1,14 @@
 /*
-        Файл fcodegen64.cpp компилятоpа математических функций
-        Веpсия 4.0 для Win32 и Win64
-        (c) Kavinov A.V. 1998-2002,2011,2019
+		Math function compiler version 4.0
+		File fcodegen64.cpp : the compiler's back end
+		Platrorms supported : x86 / Win32 and Win64
+		Author: Kavinov A.V.
 */
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <algorithm>
 #include <limits.h>
 #include "expr.h"
-
-// Compiler's backend
 
 /* В 64-битном режиме стек должен быть выравнен по 16 байт */
 constexpr int StackFrameSize= 80;	// Место под "внутренние" переменные

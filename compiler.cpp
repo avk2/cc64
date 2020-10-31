@@ -1,8 +1,8 @@
 /*
         Math function compiler version 4.0
-        File compiler.cpp : the ompiler's middleend
+        File compiler.cpp : the compiler's middleend
         Platrorms supported : x86 / Win32 and Win64
-        (c) Kavinov A.V. 1998-2002,2011,2019
+        Author: Kavinov A.V.
 */
 #include <algorithm>
 #include <math.h>

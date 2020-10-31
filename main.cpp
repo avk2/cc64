@@ -1,9 +1,10 @@
 /*
-        Файл main.cpp компилятоpа математических функций
-        Веpсия 4.0 для Win32 и Win64
-        (c) Kavinov A.V. 1998-2002,2011,2019
+        Math function compiler version 4.0
+        File main.cpp 
 */
 #include "main.h"
+
+// Nothing interesting here
 
 extern "C" DLL_EXPORT BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {

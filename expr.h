@@ -1,7 +1,8 @@
 /*
-        Файл expr.h компилятоpа математических функций
-        Веpсия 4.0 для Win32 и Win64
-        (c) Kavinov A.V. 1998-2002,2011,2019
+        Math function compiler version 4.0
+        File expr.h : the compiler's internal include file
+        Platrorms supported : x86 / Win32 and Win64
+        Author: Kavinov A.V.
 */
 #pragma once
 

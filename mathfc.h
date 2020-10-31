@@ -1,9 +1,9 @@
 #pragma once
 /*
-        Файл mathfc.h компилятоpа математических функций
-        Веpсия 4.0 для Win32 и Win64
-        (c) Kavinov A.V. 1998-2002,2011,2019
-        Интерфейс для подключения
+        Math function compiler version 4.0
+        File mathfc.h provides the external interface
+        Platrorms supported : x86 / Win32 and Win64
+        Author: Kavinov A.V. 
 */
 #include <string>
 #include <array>
