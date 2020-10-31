@@ -1,0 +1,44 @@
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+#define RC_FILEVERSION 0,11,229,1211
+
+#define RC_FILEVERSION_STRING "0, 11, 229, 1211\0"
+
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION RC_FILEVERSION
+ PRODUCTVERSION RC_FILEVERSION
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e3"
+        BEGIN
+            VALUE "CompanyName", "Кавинов А.В."
+            VALUE "FileDescription", "Math Function Compiler DLL"
+            VALUE "FileVersion", RC_FILEVERSION_STRING
+            VALUE "InternalName", "Math Function Compiler"
+            VALUE "LegalCopyright", "©1996-2019 Кавинов А.В."
+            VALUE "OriginalFilename", "mathfc4_32.dll"
+            VALUE "ProductName", "Math Function Compiler"
+            VALUE "ProductVersion", RC_FILEVERSION_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1251
+    END
+END
+

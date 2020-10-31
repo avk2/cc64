@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mathfctest64" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_64bit" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug/mathfctest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_64bit" />
+				<Compiler>
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DMATHFC_TESTING" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Release/mathfctest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_64bit" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-m64" />
+					<Add option="-DMATHFC_TESTING" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++1z" />
+			<Add option="-m64" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="ConsoleCalc.cpp" />
+		<Unit filename="compiler.cpp" />
+		<Unit filename="expr.h" />
+		<Unit filename="expression.cpp" />
+		<Unit filename="fcodegen64.cpp" />
+		<Unit filename="libinterface.cpp" />
+		<Unit filename="macro.cpp" />
+		<Unit filename="mathfc.h" />
+		<Unit filename="optimizer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
